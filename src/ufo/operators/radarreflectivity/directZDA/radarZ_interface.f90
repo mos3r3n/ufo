@@ -326,7 +326,8 @@ integer(kind_int) function init_mphyopt(mp_option)
   CASE(5,6,7)             ! WSM6
       iret = 0
   CASE(14)                ! NSSL 2-mom
-      MFflg = 2
+      !MFflg = 2  !only consider dry species
+      MFflg = 4   !K.R. modified
       iret = 0
   CASE(108)               ! Thompson
       MFflg = 3

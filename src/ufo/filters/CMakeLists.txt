@@ -179,6 +179,8 @@ set ( filters_files
       actions/SetFlag.h
       actions/SetFlagBit.cc
       actions/SetFlagBit.h
+      obsfunctions/AbsNormalizedOMB.cc
+      obsfunctions/AbsNormalizedOMB.h
       obsfunctions/AircraftBiasCorrectionTerm.cc
       obsfunctions/AircraftBiasCorrectionTerm.h
       obsfunctions/AverageTemperatureBelow.cc
@@ -319,6 +321,8 @@ set ( filters_files
       obsfunctions/SCATRetMW.h
       obsfunctions/SymmCldImpactIR.cc
       obsfunctions/SymmCldImpactIR.h
+      obsfunctions/SymmCldImpactBTlim.cc
+      obsfunctions/SymmCldImpactBTlim.h
       obsfunctions/SolarZenith.cc
       obsfunctions/SolarZenith.h
       obsfunctions/SunGlintAngle.cc

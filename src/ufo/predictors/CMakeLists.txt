@@ -6,8 +6,14 @@
 set ( predictor_files
   PredictorBase.h
   PredictorBase.cc
+  BrightnessTemperature.h
+  BrightnessTemperature.cc
+  BrightnessTemperatureClrCldDiff.h
+  BrightnessTemperatureClrCldDiff.cc
   CloudLiquidWater.h
   CloudLiquidWater.cc
+  ClearBkgBrightnessTemperature.h
+  ClearBkgBrightnessTemperature.cc
   Constant.h
   Constant.cc
   CosineOfLatitudeTimesOrbitNode.h
@@ -24,16 +30,24 @@ set ( predictor_files
   OrbitalAngle.cc
   ReadBias.h
   ReadBias.cc
+  ReciprocalCosineZenithAngle.h
+  ReciprocalCosineZenithAngle.cc
   SatelliteSelector.h
   SatelliteSelector.cc
   ScanAngle.h
   ScanAngle.cc
   SineOfLatitude.h
   SineOfLatitude.cc
+  SymmCldImpactBTlimPred.h
+  SymmCldImpactBTlimPred.cc
+  SymmCldImpactIRPred.h
+  SymmCldImpactIRPred.cc
   Thickness.h
   Thickness.cc
   ObsMetaDataPredictor.h
   ObsMetaDataPredictor.cc
+  ZenithAngle.cc
+  ZenithAngle.h
 )
 
 PREPEND( _p_predictor_files     "predictors"            ${predictor_files} )
